@@ -1,9 +1,10 @@
 import LandingPage from "../../pages/Landing";
+import { RouteType } from "./types";
 
-const Routers = [
+const Routers: Array<RouteType> = [
   {
     path: "/",
-    page: LandingPage,
+    Page: LandingPage,
     auth: false,
   },
 ];
